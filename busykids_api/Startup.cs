@@ -1,4 +1,5 @@
 ﻿using Microsoft.Owin;
+using Microsoft.Extensions.Configuration;
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(busykids_api.Startup))]
